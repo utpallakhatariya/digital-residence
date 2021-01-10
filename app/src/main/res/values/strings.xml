@@ -1,0 +1,202 @@
+<resources>
+    <string name="app_name">Digital Residence</string>
+    <string name="digital_residence">Digital Residence</string>
+    <string name="login">Login</string>
+    <string name="userid_emailaddress">Username/Email</string>
+    <string name="userid_emailid">Email</string>
+    <string name="password">Password</string>
+    <string name="registration">Registration</string>
+    <string name="username">Username</string>
+    <string name="firstname">FirstName</string>
+    <string name="lastname">LastName</string>
+    <string name="newpassword">NewPassword</string>
+    <string name="confirmpassword">ConfirmPassword</string>
+    <string name="register">Register</string>
+    <string name="new_user_click_here">new user?click here</string>
+    <string name="email">Email</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="sfdghjknbvdfrthg">sfdghjknbvdfrthg</string>
+    <string name="vendors">Vendors</string>
+    <string name="events">Events</string>
+    <string name="albums">Album</string>
+    <string name="bookingfacility">Bookings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab1">Tab1</string>
+    <string name="tab2">Tab2</string>
+    <string name="signup">SIGNUP</string>
+    <string name="or">OR</string>
+    <string name="google">Google</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="sarrah_eren">Sarrah Eren</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="navdemo">Navigation Demo</string>
+    <string name="gallery">This is gallery activity</string>
+    <string name="fileimport">This is file import</string>
+    <string name="slideshow">Slideshow</string>
+    <string name="action_setting">Settings</string>
+    <string name="share">Share</string>
+    <string name="send">Send</string>
+    <string name="communicate">Communicate</string>
+    <string name="signout">SignOut</string>
+    <string name="setting">Setting</string>
+    <string name="log_out">Log Out</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="about">About</string>
+    <string name="menu_share">menu_share</string>
+    <string name="menu_send">menu_send</string>
+    <string name="header">Header</string>
+    <string name="www_digitalresidence_com">digitalresidence@gmail.com</string>
+    <string name="piggy">piggy</string>
+    <string name="navigation_drawer_open" />
+    <string name="navigation_drawer_close" />
+    <string name="home">Home</string>
+    <string name="vendor">Vendor</string>
+    <string name="piggy_bank">Piggy Bank</string>
+    <string name="notice">Notice</string>
+    <string name="album">Album</string>
+    <string name="bill">Bill</string>
+    <string name="booking">Booking</string>
+    <string name="directory">Directory</string>
+    <string name="event">Event</string>
+    <string name="fund">Fund</string>
+    <string name="meeting">Meeting</string>
+    <string name="exit">Exit</string>
+
+    <string name="facebook_app_id">[APP_ID]</string>
+
+    <string name="fb_login_protocol_scheme">fb[APP_ID]</string>
+
+    <string name="complaint_box">Complaint Box</string>
+
+    <string name="spinner_title">Spinner Title</string>
+    <string name="pending">Pending</string>
+    <string name="solved">Solved</string>
+    <string name="profile">Profile</string>
+    <string name="notification">Notification</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="visitors">Visitors</string>
+    <string name="arrived">Arrived</string>
+    <string name="expected">Expected</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <string name="no_events">No Events…</string>
+    <string name="no_meetings">No Meetings…</string>
+    <string name="name">Name</string>
+    <string name="vendorName">Name:</string>
+    <string name="address">Address</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="add">Add</string>
+    <string name="ambulance">Ambulance</string>
+    <string name="_102">102</string>
+    <string name="police">Police</string>
+    <string name="_100">100</string>
+    <string name="_101">101</string>
+    <string name="no_notices">No Notices…</string>
+    <string name="description">Description</string>
+    <string name="descriptionCardView">Description:</string>
+    <string name="notice_description">Notice Description</string>
+    <string name="applicable_to">Applicable To : </string>
+    <string name="add_notice">Add Notice</string>
+    <string name="arrange_meeting">Arrange Meeting</string>
+    <string name="add_event">Add Event</string>
+    <string name="update_event">Update Event</string>
+    <string name="title">Title</string>
+    <string name="add_complain">Add Complain</string>
+    <string name="complain_now">Complain Now</string>
+    <string name="booking_for">Booking For:</string>
+    <string name="to">to</string>
+    <string name="confirm">Confirm</string>
+    <string name="place">Place:</string>
+    <string name="place_name">Enter Place</string>
+    <string name="confirm_booking">Confirm Booking</string>
+    <string name="book_now">Book Now</string>
+    <string name="no_bookings">No Bookings…</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="type_here">Type Here</string>
+    <string name="booking_type">Booking Type</string>
+    <string name="booking_of">Booking Of:</string>
+    <string name="notice_type">Notice Type</string>
+    <string name="event_type">Event Type:</string>
+    <string name="meeting_type">Meeting Type</string>
+    <string name="contact_type">Contact Type</string>
+    <string name="Date">Date</string>
+    <string name="date">Date:</string>
+    <string name="From">From</string>
+    <string name="from">From:</string>
+    <string name="To">To</string>
+    <string name="To_card">To:</string>
+    <string name="nesetedText">dfghjkmnbvcdsrtyjnbvcd rtyhbvfdrtyujhg jnbvgyujnbvcfddtyh tyhnbvcdhgnbvcdtryhbv gfhbvctryhgnbvdrtrgbv fghnbvcdthgbvcdfhgbvcdfhgnbvcdetryhgnbvcdftyyhjnbvcdfyjhnbvcdrtyhnbvcdftryhbvcdfhgnbvcdftyghbvcfdghbvcdrtghbvcdfrtgvcdtryghbvcdsrtgbvcdtgfvcxdtghbvcdgvcfgfvcdfgbvcdfgvcdfgvcxdg bvdtgfdsrtyhnbvcxd stryhbvfdrtyhbvc fdhgnbvcfdghbvc dhnbvcfdtyhnbv fhjnbvfd yth f tyhj nbvf ryt hbf y uhb vfd thjn bvf y hbv f ytuhb vfdr tyh bvf ty hnbv frt yujn bfyj</string>
+    <string name="sex">Gender:</string>
+    <string name="SEX">Gender</string>
+    <string name="age">Age:</string>
+    <string name="AGE">Age</string>
+    <string name="profile_information">Profile Information</string>
+    <string name="contact_information">Contact Information</string>
+    <string name="mobile">Mobile:</string>
+    <string name="mobile_number">Mobile Number:</string>
+    <string name="email_id">Email ID:</string>
+    <string name="EMAIL_ID">Email ID</string>
+    <string name="address_information">Address Information</string>
+    <string name="society_name">Society Name:</string>
+    <string name="SocietyName">Society Name</string>
+    <string name="flat">Flat:</string>
+    <string name="a">A</string>
+    <string name="city">City:</string>
+    <string name="CITY">City</string>
+    <string name="pin_code">Pin code:</string>
+    <string name="Pin_Code">Pin code</string>
+    <string name="state">State:</string>
+    <string name="STATE">State</string>
+    <string name="country">Country:</string>
+    <string name="country_name">Country</string>
+    <string name="complaint_title">Complaint Title:</string>
+    <string name="complaint_title_text">Complaint Title</string>
+    <string name="no_complaints">No Complaints…</string>
+    <string name="status">Status:</string>
+    <string name="time">Time:</string>
+    <string name="meeting_title">Meeting Title:</string>
+    <string name="other">Other:</string>
+    <string name="enter_here">Enter here</string>
+    <string name="notice_title">Notice Title:</string>
+    <string name="no_vendors">No Vendors…</string>
+    <string name="add_vendor">Add Vendor</string>
+    <string name="id">id</string>
+    <string name="category">Category:</string>
+    <string name="no_visitors">No Visitors…</string>
+    <string name="purpose">Purpose:</string>
+    <string name="visitor_address">Address:</string>
+    <string name="add_visitor">Add Visitor</string>
+    <string name="person">Person:</string>
+    <string name="add_guest">Add Guest</string>
+    <string name="owner_s_address">Owner\'s Address:</string>
+    <string name="no_guests">No Guests…</string>
+    <string name="_00">00</string>
+    <string name="no_contacts">No Contacts…</string>
+    <string name="click_here"><u>Click here</u></string>
+    <string name="already_have_an_account">Already have an account?,</string>
+    <string name="full_name">Full name:</string>
+    <string name="enter_full_name">Enter full name</string>
+    <string name="gender">Gender:</string>
+    <string name="first_middle_last">(first) (middle) (last)</string>
+    <string name="login_here">login here</string>
+    <string name="already_registered">Already registered?</string>
+    <string name="add_society">Add society</string>
+    <string name="society_address">Society Address</string>
+
+
+    <string-array name="meeting_spinner">
+        <item>Select Type:-</item>
+        <item>Monthly Meeting</item>
+        <item>Argent Meeting</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="notice_spinner">
+        <item>Select Type:-</item>
+        <item>Monthly Notice</item>
+        <item>Emergency Notice</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>

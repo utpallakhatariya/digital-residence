@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2CB4CF">
+
+    <TextView
+        android:id="@+id/join_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:text="@string/digital_residence"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_30sdp" />
+
+    <ImageView
+        android:id="@+id/main_join_image"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/join_society_1"/>
+
+    <Button
+        android:id="@+id/join_btn"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:text="Join Society"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/btn_shape_join_society"
+        android:onClick="joinSocBtn"
+        android:textSize="@dimen/_10sdp"
+        android:padding="@dimen/_5sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_below="@id/main_join_image"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/join_or_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/or"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_below="@id/join_btn"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorBlack"/>
+    <Button
+        android:id="@+id/create_society_btn"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:padding="@dimen/_5sdp"
+        android:text="Register Society"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_10sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:onClick="registerSocBtn"
+        android:background="@drawable/btn_shape_join_society"
+        android:layout_below="@id/join_or_txt"
+        android:layout_centerHorizontal="true"/>
+<!--<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/create_society_btn"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:orientation="horizontal"
+    android:layout_centerHorizontal="true">
+    <TextView
+        android:id="@+id/loginTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_11sdp"
+        android:text="@string/already_have_an_account"/>
+    <TextView
+        android:id="@+id/clickHereTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:textSize="@dimen/_11sdp"
+        android:text="@string/click_here"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:onClick="logInBtnSoc"
+        android:textColor="@android:color/holo_red_dark"/>
+</LinearLayout>-->
+</RelativeLayout>

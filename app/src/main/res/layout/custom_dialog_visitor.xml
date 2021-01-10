@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Fragment.FragmentEvent"
+    android:background="@drawable/dialog_bg"
+    >
+    <RelativeLayout
+        android:id="@+id/relative_visitor_main_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+    <TextView
+        android:id="@+id/visitor_main_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:text="@string/add_visitor"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"/>
+    </RelativeLayout>
+    <View
+        android:id="@+id/view1Visitor"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_below="@id/relative_visitor_main_tv"
+        android:background="#AC8F8F"/>
+    <ScrollView
+        android:layout_below="@id/relative_visitor_main_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:id="@+id/relative_editText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/VisitorIDTV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/id"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/Visitor_name_TXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="@string/vendorName"
+        android:textSize="@dimen/_12sdp"
+        android:layout_marginStart="@dimen/_20sdp"/>
+    <EditText
+        android:id="@+id/VisitorName_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/Visitor_name_TXT"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:lines="1"
+        android:layout_marginStart="@dimen/_72sdp"
+        android:background="@drawable/edittext_border"
+        android:hint="@string/enter_here"/>
+<TextView
+    android:id="@+id/Visitor_address_TXT"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/visitor_address"
+    android:textSize="@dimen/_12sdp"
+    android:layout_marginTop="@dimen/_20sdp"
+    android:layout_below="@id/Visitor_name_TXT"
+    android:layout_marginStart="@dimen/_20sdp"/>
+    <EditText
+        android:id="@+id/Visitor_address_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/Visitor_address_TXT"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:lines="1"
+        android:layout_marginStart="@dimen/_60sdp"
+        android:layout_below="@id/VisitorName_EditText"
+        android:background="@drawable/edittext_border"
+        android:hint="@string/enter_here"/>
+    <TextView
+        android:id="@+id/Visitor_purpose_TXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/purpose"
+        android:textSize="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_below="@id/Visitor_address_TXT"
+        android:layout_marginStart="@dimen/_20sdp"/>
+    <EditText
+        android:id="@+id/Visitor_purpose_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/Visitor_purpose_TXT"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:lines="1"
+        android:layout_marginStart="@dimen/_60sdp"
+        android:layout_below="@id/Visitor_address_editText"
+        android:background="@drawable/edittext_border"
+        android:hint="@string/enter_here"/>
+
+</RelativeLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/time_linear"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/relative_editText"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/visitorTimeTXT_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_25sdp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/visitor_time_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_28sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/colorBlack"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/visitor_timeBtn_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/visitor_time_btn"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:text="@string/select_time"
+                android:textColor="@color/colorBlack"
+                />
+        </LinearLayout>
+    </LinearLayout>
+<View
+    android:id="@+id/viewVisitor"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginStart="@dimen/_5sdp"
+    android:layout_marginEnd="@dimen/_5sdp"
+    android:layout_marginTop="@dimen/_20sdp"
+    android:layout_below="@id/time_linear"
+    android:background="#AC8F8F"/>
+    <Button
+        android:id="@+id/confirm_visitor_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_20sdp"
+        android:layout_below="@id/viewVisitor"
+        android:layout_centerHorizontal="true"
+        android:text="@string/confirm"
+        android:textSize="@dimen/_15sdp"
+        android:background="#82C13F"
+        android:textColor="@color/colorWhite"
+        />
+</RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+
+
+
+

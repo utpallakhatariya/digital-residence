@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+
+    <color name="colorPrimaryDark">#00574B</color>
+
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="colorBlack">#000000</color>
+
+    <color name="color500">#CED3EB</color>
+
+    <color name="color123">#1042A8</color>
+
+    <color name="color">#89A4F1</color>
+
+    <color name="colornew1">#5475D8</color>
+
+    <color name="yellow">#59FF00</color>
+
+    <color name="google">#0B5EA0</color>
+
+    <color name="facebook">#0A71D8</color>
+
+    <color name="drawer_icon">#70A572</color>
+
+    <color name="toolbar">#4F4887</color>
+
+    <color name="join_activity_status_bar">#2CB4CF</color>
+
+    <color name="statusbar_login">#325665</color>
+
+    <color name="complaint_fab">#1C6C50</color>
+
+    <color name="directory_card">#EDEBE7</color>
+
+    <color name="complain_green_color_btn">#43A047</color>
+
+    <color name="complain_red_color_btn">#E53935</color>
+
+</resources>

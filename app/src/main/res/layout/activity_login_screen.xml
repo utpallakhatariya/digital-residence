@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginScreen.LoginScreen"
+    android:background="@drawable/bg1">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:src="@drawable/officebuilding"
+        android:elevation="@dimen/_5sdp"
+        android:padding="@dimen/_10sdp"
+        android:background="@drawable/elevation_dialog_bg"
+        android:layout_centerHorizontal="true"/>
+<RelativeLayout
+    android:id="@+id/rL"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_bg"
+    android:layout_margin="@dimen/_28sdp"
+    android:padding="@dimen/_25sdp">
+
+    <EditText
+        android:id="@+id/login_ed"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edittext_border"
+        android:layout_marginTop="@dimen/_18sdp"
+        android:padding="@dimen/_5sdp"
+        android:hint="@string/userid_emailaddress"
+        android:textColorHint="@color/colorBlack"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/password_ed"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/login_ed"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/edittext_border"
+        android:padding="@dimen/_5sdp"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:textColorHint="@color/colorBlack"
+        app:errorEnabled="true"
+        app:passwordToggleEnabled="true"/>
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_below="@id/password_ed"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_centerHorizontal="true"
+        android:background="#7500A3"
+        android:text="@string/login"
+        android:textColor="@color/colorWhite"
+        android:onClick="login"/>
+
+    <Button
+        android:id="@+id/signupbutton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@id/loginbutton"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/login_signup_btn_shape"
+        android:text="@string/register"
+        android:textColor="@color/colorBlack"
+        android:onClick="SignUp"/>
+
+</RelativeLayout>
+</RelativeLayout>
+
+</ScrollView>
+
+</RelativeLayout>

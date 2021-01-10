@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "149668094791",
+    "firebase_url": "https://digital-residence-5ef65.firebaseio.com",
+    "project_id": "digital-residence-5ef65",
+    "storage_bucket": "digital-residence-5ef65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149668094791:android:e7777bb65be4d6b995a262",
+        "android_client_info": {
+          "package_name": "com.example.digitalresidence"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149668094791-81dk5vr6pc61jabl9m3qfstthtq2toko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQurOMNVg6RwkkRRyo9dOqs2NsE4b29uo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149668094791-1iugjea67utiguj35uinqar3tbn0savg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/profile"/>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/ic_announcement_black_24dp"
+            android:title="@string/notice"/>
+        <item
+            android:id="@+id/nav_album"
+            android:icon="@drawable/ic_photo_library_black_24dp"
+            android:title="@string/album"/>
+        <item
+            android:id="@+id/nav_bill"
+            android:icon="@drawable/money"
+            android:title="@string/bill"/>
+        <item
+            android:id="@+id/nav_booking"
+            android:icon="@drawable/tablet"
+            android:title="@string/booking"/>
+        <item
+            android:id="@+id/nav_directory"
+            android:icon="@drawable/directory"
+            android:title="@string/directory"/>
+        <item
+            android:id="@+id/nav_Event"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="@string/event"/>
+        <item
+            android:id="@+id/nav_fund"
+            android:icon="@drawable/piggy_bank"
+            android:title="@string/fund"/>
+        <item
+            android:id="@+id/nav_meeting"
+            android:icon="@drawable/meeting"
+            android:title="@string/meeting"/>
+        <item
+            android:id="@+id/nav_complain"
+            android:icon="@drawable/complaint1"
+            android:title="@string/complaint_box" />
+        <item
+            android:id="@+id/action_log_out"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="@string/log_out" />
+    </group>
+
+    <item
+        android:title="@string/communicate"
+        android:visible="@color/colorWhite">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:onClick="SHARE"
+                android:title="@string/share" />
+        </menu>
+
+    </item>
+</menu>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/pending"
+    android:icon="@drawable/pending_color_bottom"
+    android:title="@string/pending"
+    android:iconTint="#F60303"/>
+
+    <item
+        android:id="@+id/solved"
+        android:icon="@drawable/solved_color_bottom"
+        android:title="Solved"/>
+</menu>
